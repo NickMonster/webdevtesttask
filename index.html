@@ -9,46 +9,52 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="stylesheet" type="text/css" href="./css/style.min.css" />
 </head>
 
 <body>
   <main class="main-content">
     <div class="block-app">
-      <div class="block block-big">
-        <input type="text" class="block-input" readonly>
-        <i class="icon-application"></i>
-        <div class="block-title">Application</div>
+      <div class="col-md d-flex flex-column">
+        <div class="block block-1">
+          <input type="text" class="block-input">
+          <i class="icon-server"></i>
+          <div class="block-title">Server</div>
+        </div>
+        <div class="block block-2 mt-md_120">
+          <input type="text" class="block-input">
+          <i class="icon-app-group"></i>
+          <div class="block-title">App group</div>
+        </div>
       </div>
-      <div class="block">
-        <input type="text" class="block-input">
-        <i class="icon-server"></i>
-        <div class="block-title">Server</div>
+      <div class="col-md d-flex flex-column align-items-center justify-content-between-md">
+        <div class="block block-3">
+          <input type="text" class="block-input">
+          <i class="icon-interface"></i>
+          <div class="block-title">Interface</div>
+        </div>
+        <div class="block block-big block-4 m-md_120">
+          <input type="text" class="block-input" readonly>
+          <i class="icon-application"></i>
+          <div class="block-title">Application</div>
+        </div>
+        <div class="block block-5">
+          <input type="text" class="block-input">
+          <i class="icon-functions"></i>
+          <divv class="block-title">Functions</divv>
+        </div>
       </div>
-      <div class="block">
-        <input type="text" class="block-input">
-        <i class="icon-app-group"></i>
-        <div class="block-title">App group</div>
-      </div>
-      <div class="block">
-        <input type="text" class="block-input">
-        <i class="icon-interface"></i>
-        <div class="block-title">Interface</div>
-      </div>
-      <div class="block">
-        <input type="text" class="block-input">
-        <i class="icon-mtv"></i>
-        <divv class="block-title">MTV</divv>
-      </div>
-      <div class="block">
-        <input type="text" class="block-input">
-        <i class="icon-functions"></i>
-        <divv class="block-title">Functions</divv>
+      <div class="col-md d-flex flex-column">
+        <div class="block block-6 mt-md_240">
+          <input type="text" class="block-input">
+          <i class="icon-mtv"></i>
+          <divv class="block-title">MTV</divv>
+        </div>
       </div>
     </div>
   </main>
 
-  <script src="./js/main.js"></script>
+  <script src="./js/main.min.js"></script>
 </body>
 
 </html>

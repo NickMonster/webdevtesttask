@@ -16,7 +16,6 @@ const checkSum = () => {
 
 blockInputs.forEach((el) => {
   el.addEventListener('input', () => {
-    console.log(el);
     checkSum();
   });
 });
